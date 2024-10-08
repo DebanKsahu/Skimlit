@@ -31,13 +31,13 @@ pip install -r requirements.txt
 
 ## Demo
 
-[Demo_Video](./Result/Skimlit_Demo.mp4)
+[Demo_Video](./SkimLit/Result/Skimlit_Demo.mp4)
 
 ## Results
 
-![Model_1_result](./Result/best_model_1_result.png)
-![Model_2_result](./Result/best_model_2_result.png)
-![Multi_model_result](./Result/multi_model_result.png)
+![Model_1_result](./SkimLit/Result/best_model_1_result.png)
+![Model_2_result](./SkimLit/Result/best_model_2_result.png)
+![Multi_model_result](./SkimLit/Result/multi_model_result.png)
 
 ## Important Notes
 -There is some issues with using keras tunner with pretrained embedding layer(**Universal Sentence Encode**) but for tensorflow version 2.15.0 that model was trained without any issue so if anyone want to train model-2 then please degrade the tensorflow verson to 2.15.0
